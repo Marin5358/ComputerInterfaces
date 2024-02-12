@@ -1,0 +1,20 @@
+package uniqueFile_TIMESTAMP;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.nio.charasetsStandardCharSets;
+public class txt {
+    public static void main(String[] args) {
+        Path path = Paths.get("uniqueFile_TIMESTAMP.txt");
+        String content = "hello ";
+        try{
+            Files.write(path, content.getBytes(StandardCharSets.UTF_8));
+            System.out.println("File created successfully");
+        }catch(IOException e){
+            e.printStackTrace();
+        }
+
+
+
+    }
+}
