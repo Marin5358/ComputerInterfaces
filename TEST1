@@ -1,0 +1,33 @@
+import java.net.MalformedURLException;
+
+public class Main {
+    public static void main(String[] args) throws MalformedURLException {
+
+        try {
+            URL myURL = new URL("https://uacs.edu.mk/home.");
+            URLConnection myURLConnection = myURL;
+        }
+
+        String line = null;
+        int characters;
+        int number;
+
+
+        while(line = reader.readLine() != null){
+            System.out.println(line);
+        }
+        while(line = reader.readCharacters() < MaxCharacters ){
+            System.out.println(MaxCharacters);
+        }
+        while(line = reader.readNumber() <  ){
+            System.out.println(line);
+        }
+
+
+        System.out.println("All the lines: " + url.getLine());
+        System.out.println("Max characters and numbers of characters: " + url.getMaxCharacters + url.getNumber);
+
+
+
+    }
+}
